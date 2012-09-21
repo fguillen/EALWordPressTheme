@@ -37,7 +37,7 @@ p {
 /* SECTIONS MENU */
 
 #top-column #sections-menu {
-  margin: 0 auto;
+  margin: 10px auto;
   width: 200px;
   text-align: center;
 }
