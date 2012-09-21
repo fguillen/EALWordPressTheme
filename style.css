@@ -1,0 +1,163 @@
+body {
+  font-family: "Andale mono", sans-serif;
+  line-height: 14px;
+}
+
+a,
+p {
+  white-space: normal;
+}
+
+/* LAYOUT */
+
+#wrapper {
+  width: 1020px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#top-column {
+  width: 100%;
+}
+
+#left-column {
+  width: 180px;
+  float: left;
+}
+
+#right-column {
+  float: right;
+  width: 840px;
+}
+
+#content {
+  margin-top: 202px;
+}
+
+/* SECTIONS MENU */
+
+#top-column #sections-menu {
+  margin: 0 auto;
+  width: 200px;
+  text-align: center;
+}
+
+#top-column #sections-menu li {
+  display: inline;
+}
+
+#top-column #sections-menu a {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#top-column #sections-menu a:hover,
+#top-column #sections-menu li.actived a {
+  color: white;
+  background-color: black
+}
+
+
+/* HEADER */
+
+#header,
+#menu {
+}
+
+#header {
+  margin-bottom: 20px;
+  height: 185px;
+}
+
+#cart-summarize a {
+  background-color: #666;
+  color: white;
+  text-decoration: none;
+}
+
+#cart-summarize a:hover {
+  background-color: black;
+}
+
+/* MENU */
+#menu {
+  height: 100%;
+}
+
+#menu > ul > li {
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  margin-bottom: 9px;
+}
+
+#menu > ul > li > ul > li {
+  font-size: 10.5px;
+}
+
+#menu a {
+  color: #666;
+  text-decoration: none;
+}
+
+#menu a:hover {
+  color: white;
+  background-color: black;
+}
+
+
+/* ITEM */
+
+.item {
+  display: inline-block;
+  white-space: nowrap;
+  width: 840px;
+}
+
+.item .text {
+  width: 310px;
+  float: left;
+  font-size: 10.5px;
+}
+
+.item .text h2 {
+  font-weight: bold;
+  font-size: 12;
+  margin-bottom: 5px;
+}
+
+.item .text a {
+  color: #666;
+  text-decoration: none;
+}
+
+.item .text a:hover {
+  color: white;
+  background-color: black;
+}
+
+.item .text strong {
+  font-weight: bold;
+}
+
+.item .text h3 {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.item .text p {
+  margin-bottom: 1em;
+}
+
+.item .images {
+  width: 520px;
+  float: right;
+}
+
+.item .images img {
+  margin-bottom: 10px;
+  width: 520px;
+}
