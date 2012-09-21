@@ -1,6 +1,3 @@
-
-<header>
-	<h1><a href="/"><?php bloginfo( 'name' ); ?></a></h1>
-	<?php bloginfo( 'description' ); ?>
-	<?php get_search_form(); ?>
-</header>
+<div id="header">
+  <a href="<?php print( get_site_url() ) ?>"><img src="<?php bloginfo('template_directory'); ?>/images/escrito_logo.jpg" /></a>
+</div>

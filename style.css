@@ -10,6 +10,15 @@ p {
 
 /* LAYOUT */
 
+#header {
+  margin-top: 10px;
+  width: 100%;
+}
+
+#header img{
+  width: 1600px;
+}
+
 #wrapper {
   width: 1020px;
   margin: 0 auto;
@@ -18,6 +27,7 @@ p {
 
 #top-column {
   width: 100%;
+  margin-bottom: 20px;
 }
 
 #left-column {
@@ -31,7 +41,6 @@ p {
 }
 
 #content {
-  margin-top: 202px;
 }
 
 /* SECTIONS MENU */
@@ -40,6 +49,7 @@ p {
   margin: 0 auto;
   width: 200px;
   text-align: center;
+  font-weight: bold;
 }
 
 #top-column #sections-menu li {
@@ -59,16 +69,7 @@ p {
 }
 
 
-/* HEADER */
-
-#header,
-#menu {
-}
-
-#header {
-  margin-bottom: 20px;
-  height: 185px;
-}
+/* CART */
 
 #cart-summarize a {
   background-color: #666;

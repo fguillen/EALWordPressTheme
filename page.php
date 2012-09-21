@@ -1,4 +1,5 @@
 <?php get_template_parts( array( 'parts/shared/html-header' ) ); ?>
+<?php get_template_parts( array( 'parts/shared/header' ) ); ?>
 
 <div id="wrapper">
   <?php get_template_parts( array( 'parts/shared/menu' ) ); ?>

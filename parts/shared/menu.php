@@ -8,10 +8,6 @@
 </div>
 
 <div id="left-column">
-  <div id="header">
-    <a href="<?php print( get_site_url() ) ?>"><img src="<?php bloginfo('template_directory'); ?>/images/logo.jpg" /></a>
-  </div>
-
   <div id="menu">
     <ul>
       <li>Info
