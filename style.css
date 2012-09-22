@@ -134,6 +134,12 @@ em {
   width: 520px;
 }
 
+.item .images .wp-caption-text {
+  font-size: 10.5px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
 /* ATTACHMENT */
 
 .attachment #content .item .description {
