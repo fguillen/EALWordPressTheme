@@ -8,15 +8,16 @@ p {
   white-space: normal;
 }
 
+em {
+  font-style: italic;
+}
+
 /* LAYOUT */
 
 #header {
   margin-top: 10px;
+  margin-bottom: 20px;
   width: 100%;
-}
-
-#header img{
-  width: 1600px;
 }
 
 #wrapper {
@@ -131,4 +132,10 @@ p {
 .item .images img {
   margin-bottom: 10px;
   width: 520px;
+}
+
+/* ATTACHMENT */
+
+.attachment #content .item .description {
+  display: none;
 }
