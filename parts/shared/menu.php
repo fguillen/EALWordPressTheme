@@ -1,15 +1,8 @@
-<div id="top-column">
-  <div id="sections-menu">
-    <ul>
-      <li><a href="http://tienda.escritoalapiz.es">Tienda</a></li>
-      <li class="actived"><a href="http://escritoalapiz.es">Web</a></li>
-    </ul>
-  </div>
-</div>
-
 <div id="left-column">
   <div id="menu">
     <ul>
+      <li><a href="http://tienda.escritoalapiz.es">ir a la Tienda</a></li>
+
       <li>Info
         <ul>
           <?php wp_list_pages('title_li=' ); ?>
