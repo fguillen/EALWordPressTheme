@@ -1,6 +1,8 @@
 body {
   font-family: "Andale mono", sans-serif;
-  line-height: 14px;
+  font-size: 10.5px;
+  line-height: 11px;
+  padding: 0 0 40px 0;
 }
 
 a,
@@ -10,6 +12,10 @@ p {
 
 em {
   font-style: italic;
+}
+
+.clear {
+  clear: both;
 }
 
 /* LAYOUT */
@@ -66,7 +72,6 @@ em {
 }
 
 #menu > ul > li > ul > li {
-  font-size: 10.5px;
 }
 
 #menu a {
@@ -109,7 +114,6 @@ em {
 .item .text {
   width: 310px;
   float: left;
-  font-size: 10.5px;
 }
 
 .item .text h2 {
@@ -153,9 +157,89 @@ em {
 }
 
 .item .images .wp-caption-text {
-  font-size: 10.5px;
   margin-top: -10px;
   margin-bottom: 10px;
+}
+
+/* Comments */
+
+.item .comments {
+  margin-top: 20px;
+}
+
+.item .comments h3 {
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.item .comments input[type='text'],
+.item .comments textarea {
+  border: 1px solid #CCC;
+  padding: 5px;
+  width: 400px;
+}
+
+.item .comments textarea {
+  height: 100px;
+}
+
+.item .comments input[name='author'] {
+  width: 200px;
+}
+
+.item .comments p {
+  clear: both;
+}
+
+.item .comments label {
+  margin-top: 10px;
+  width: 60px;
+}
+
+.item .comments label,
+.item .comments input {
+  float: left;
+}
+
+.item .comments .form-allowed-tags,
+.item .comments .comment-notes,
+.item .comments #reply-title,
+.item .comments #comments h2 {
+  display:none;
+}
+
+.item .comments .form-submit input{
+  margin-top: 10px;
+  margin-left: 60px;
+  border: 1px solid #CCC;
+  padding: 5px;
+  width: 400px;
+}
+
+
+.item .comments #comments li {
+  padding: 20px;
+}
+
+.item .comments #comments h4 {
+  font-weight: bold;
+  color: #666;
+}
+
+.item .comments a {
+  color: #666;
+  text-decoration: none;
+}
+
+.item .comments a:hover {
+  color: white;
+  background-color: black;
+}
+
+.item .comments #comments p {
+  margin-top: 5px;
 }
 
 /* ATTACHMENT */
