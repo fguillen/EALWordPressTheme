@@ -15,6 +15,13 @@
         </ul>
       </li>
     </ul>
+
+    <div id="menu-tools">
+      <ul>
+        <li><a href="https://www.facebook.com/pages/Escrito-a-L%C3%A1piz/146672305375792"><img src="<?php bloginfo('template_directory'); ?>/images/facebook.png" /></a></li>
+        <li><a href="https://twitter.com/escritoalapiz "><img src="<?php bloginfo('template_directory'); ?>/images/twitter.png" /></a></li>
+      </ul>
+    </div>
   </div>
 </div>
 

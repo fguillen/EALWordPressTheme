@@ -80,6 +80,24 @@ em {
 }
 
 
+#menu #menu-tools li {
+  display: inline;
+}
+
+#menu #menu-tools img{
+  width: 34px;
+  height: 34px;
+}
+
+#menu #menu-tools a,
+#menu #menu-tools a:hover {
+  text-decoration: none;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+
+
 /* ITEM */
 
 .item {
