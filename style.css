@@ -118,7 +118,6 @@ a:hover {
 
 .item {
   display: inline-block;
-  white-space: nowrap;
   width: 840px;
 }
 
