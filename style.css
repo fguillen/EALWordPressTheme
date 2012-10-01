@@ -38,7 +38,7 @@ a:hover {
 
 #wrapper {
   width: 1020px;
-  margin: 0 auto;
+  margin-left: 62px;
   overflow: hidden;
 }
 
@@ -95,6 +95,11 @@ a:hover {
   background-color: black;
 }
 
+#menu #menu-tools {
+  border-top: 1px solid #797979;
+  width: 83px;
+  padding-top: 5px;
+}
 
 #menu #menu-tools li {
   display: inline;
