@@ -61,6 +61,7 @@ em {
 /* MENU */
 #menu {
   height: 100%;
+  line-height: 14px;
 }
 
 #menu > ul > li {
