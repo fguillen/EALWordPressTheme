@@ -14,6 +14,16 @@ em {
   font-style: italic;
 }
 
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: black;
+}
+
 .clear {
   clear: both;
 }
@@ -123,16 +133,6 @@ em {
   margin-bottom: 5px;
 }
 
-.item .text a {
-  color: #666;
-  text-decoration: none;
-}
-
-.item .text a:hover {
-  color: white;
-  background-color: black;
-}
-
 .item .text strong {
   font-weight: bold;
 }
@@ -229,16 +229,6 @@ em {
   color: #666;
 }
 
-.item .comments a {
-  color: #666;
-  text-decoration: none;
-}
-
-.item .comments a:hover {
-  color: white;
-  background-color: black;
-}
-
 .item .comments #comments p {
   margin-top: 5px;
 }
@@ -247,4 +237,26 @@ em {
 
 .attachment #content .item .description {
   display: none;
+}
+
+/* INDEX */
+
+#index .item {
+  width: 275px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  float: left;
+}
+
+#index h2 {
+  text-align: right;
+  font-weight: bold;
+}
+
+#index .item:hover {
+  background-color: black;
+}
+
+#index .item:hover a {
+  color: white;
 }
