@@ -55,6 +55,11 @@ a:hover {
 #content {
 }
 
+/* HEADER */
+
+#header a:hover {
+  background-color: white;
+}
 
 /* CART */
 
