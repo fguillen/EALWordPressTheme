@@ -277,7 +277,8 @@ a:hover {
 
 /* BUTTONS */
 
-.add-to-cart {
+.add-to-cart,
+#comment-button {
   -moz-box-shadow:inset 0px 1px 8px 0px #f5f5f5;
   -webkit-box-shadow:inset 0px 1px 8px 0px #f5f5f5;
   box-shadow:inset 0px 1px 8px 0px #f5f5f5;
@@ -296,12 +297,18 @@ a:hover {
   padding:3px 6px;
   text-decoration:none;
   text-shadow:1px 1px 0px #f0f0f0;
-}.add-to-cart:hover {
+}
+
+.add-to-cart:hover,
+#comment-button:hover {
   background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e6e6e6), color-stop(1, #f5f5f5) );
   background:-moz-linear-gradient( center top, #e6e6e6 5%, #f5f5f5 100% );
   filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e6e6e6', endColorstr='#f5f5f5');
   background-color:#e6e6e6;
-}.add-to-cart:active {
+}
+
+.add-to-cart:active,
+#comment-button:active {
   position:relative;
   top:1px;
 }
