@@ -199,18 +199,29 @@ a:hover {
   width: 200px;
 }
 
-.item .comments p {
-  clear: both;
+
+.item .comments p.comment-form-comment {
+  position: relative;
+}
+
+.item .comments p.comment-form-comment label {
+  position: absolute;
+  top: -5px;
+  left: 0;
+}
+
+.item .comments p.comment-form-comment #comment{
+  margin-left: 60px;
+}
+
+.item .comments span.required {
+  margin-left: -15px;
 }
 
 .item .comments label {
   margin-top: 10px;
   width: 60px;
-}
-
-.item .comments label,
-.item .comments input {
-  float: left;
+  display: inline-block;
 }
 
 .item .comments .form-allowed-tags,
